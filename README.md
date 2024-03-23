@@ -1,34 +1,27 @@
-BREAST CANCER PREDICTION USING LOGISTIC REGRESSION
+# BREAST CANCER PREDICTION USING LOGISTIC REGRESSION
 
 This repository contains code for training a machine learning model to predict breast cancer using logistic regression. The model is trained on the popular Breast Cancer Wisconsin (Diagnostic) Dataset, which contains features computed from a digitized image of a fine needle aspirate (FNA) of a breast mass.
 
+## Environment creation
+Run the code below in your terminal to create your virtual environment.
+
+```bash
+python -m venv env
+```
+
+## Installation
+
+Use the package manager [pip](https://pip.pypa.io/en/stable/) to install required dependencies.
+
+```bash
+pip install -r requirements.txt
+```
+
+## Dataset
+The dataset used for training the model is breast-cancer.csv. It consists of various features such as radius_mean, texture_mean, perimeter_mean, and others, along with the target variable indicating the diagnosis (M=malignant, B=benign)
 
 
-DATASET
 
-The dataset used for training the model is breast-cancer.csv. It consists of various features such as radius_mean, texture_mean, perimeter_mean, and others, along with the target variable indicating the diagnosis (M = malignant, B = benign).
+## License
 
-
-MODEL TRAINING
-
-The Breast_Cancer_Prediction_Logistic_Regression.ipynb Jupyter Notebook contains the code for preprocessing the data, training the logistic regression model, and evaluating its performance using log score.
-
-
-DEPENDANCIES
-
-The code is written in Python and requires the following libraries:
-
-numpy
-
-pandas
-
-scikit-learn
-
-matplotlib
-
-seaborn
-
-
-LICENSE
-
-The Breast Cancer (Diagnostic) Dataset used in this project is sourced from Kaggle and is licensed under the CC0: Public Domain license.
+[MIT](https://choosealicense.com/licenses/mit/)
